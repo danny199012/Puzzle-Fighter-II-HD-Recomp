@@ -10947,6 +10947,13 @@ DEFINE_REX_FUNC(__restvmx_76) {
 	return;
 }
 
+DEFINE_REX_FUNC(sub_82276DA0) {
+	REX_FUNC_PROLOGUE();
+	// b 0x828b020c
+	__imp__KeTlsAlloc(ctx, base);
+	return;
+}
+
 DEFINE_REX_FUNC(sub_822886B0) {
 	REX_FUNC_PROLOGUE();
 	// lis r11,-32078

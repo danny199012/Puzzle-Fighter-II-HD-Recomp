@@ -21,4 +21,7 @@ else()
     add_executable(puzzlefighter ${PUZZLEFIGHTER_SOURCES})
 endif()
 
-rexglue_setup_target(puzzlefighter)
+# Stage the Xenos GPU emulation plugin next to the executable. It is loaded at
+# runtime (never linked), so TARGET_RUNTIME_DLLS misses it. Select it at launch
+# with --gpu_plugin xenos.
+rexglue_setup_target(puzzlefighter GPU_PLUGINS xenos)

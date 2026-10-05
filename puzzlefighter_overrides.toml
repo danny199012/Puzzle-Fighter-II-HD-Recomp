@@ -1,0 +1,20 @@
+﻿# Manual analysis overrides for Puzzle Fighter HD.
+#
+# Each entry below is a guest entry point that codegen fails to register. In every
+# case the address is reachable only through a computed branch, so the static
+# scanner has no edge into it; it gets classified as a tail-call chunk of the
+# preceding function and merged away. The guest then traps at dispatch with:
+#   [FATAL] Call to invalid or unregistered function at guest address 0x...
+#
+# Declaring the address as its own function (parent = 0) forces codegen to emit a
+# real entry. Each block was verified by inspecting the emitted C++ before use.
+
+# A tail-call slot inside sub_82276C80 (VMX helper cluster).
+[functions."0x82276DA0"]
+parent = 0
+end = 0x82276DA8
+
+# Second instruction of a multi-entry stub cluster following sub_82245640.
+[functions."0x82245648"]
+parent = 0
+end = 0x82245660

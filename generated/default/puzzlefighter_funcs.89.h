@@ -5,6 +5,7 @@
 DECLARE_REX_FUNC(__imp__KeAcquireSpinLockAtRaisedIrql);
 DECLARE_REX_FUNC(__imp__KeRaiseIrqlToDpcLevel);
 DECLARE_REX_FUNC(__imp__KeReleaseSpinLockFromRaisedIrql);
+DECLARE_REX_FUNC(__imp__KeTlsAlloc);
 DECLARE_REX_FUNC(__imp__KfLowerIrql);
 DECLARE_REX_FUNC(__imp__RtlEnterCriticalSection);
 DECLARE_REX_FUNC(__imp__RtlLeaveCriticalSection);

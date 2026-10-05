@@ -7091,6 +7091,7 @@ void puzzlefighter_RegisterFunctions(rex::runtime::IModuleRegistrar* registrar) 
   registrar->SetFunction(0x822454B0, sub_822454B0);
   registrar->SetFunction(0x822455B0, sub_822455B0);
   registrar->SetFunction(0x82245640, sub_82245640);
+  registrar->SetFunction(0x82245648, sub_82245648);
   registrar->SetFunction(0x82245660, sub_82245660);
   registrar->SetFunction(0x82245670, sub_82245670);
   registrar->SetFunction(0x82245680, sub_82245680);
@@ -8032,6 +8033,7 @@ void puzzlefighter_RegisterFunctions(rex::runtime::IModuleRegistrar* registrar) 
   registrar->SetFunction(0x82276C6C, __restvmx_126);
   registrar->SetFunction(0x82276C74, __restvmx_127);
   registrar->SetFunction(0x82276C80, sub_82276C80);
+  registrar->SetFunction(0x82276DA0, sub_82276DA0);
   registrar->SetFunction(0x82276DA8, sub_82276DA8);
   registrar->SetFunction(0x82276DF0, sub_82276DF0);
   registrar->SetFunction(0x82276E68, sub_82276E68);
