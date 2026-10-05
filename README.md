@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.jpg" alt="Puzzle Fighter Turbo HD Recomp" width="640">
+</p>
+
 # Puzzle Fighter HD - ReXGlue Recomp
 
 Native static recompilation of the Xbox 360 XBLA release of *Puzzle Fighter HD*,
