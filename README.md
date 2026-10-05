@@ -2,10 +2,17 @@
   <img src="docs/banner.jpg" alt="Puzzle Fighter Turbo HD Recomp" width="640">
 </p>
 
-# Puzzle Fighter HD - ReXGlue Recomp
+# Puzzle Fighter Turbo HD - ReXGlue Recomp
 
-Native static recompilation of the Xbox 360 XBLA release of *Puzzle Fighter HD*,
-built against the bundled ReXGlue SDK in `..\rexglue\win-amd64`.
+Native static recompilation of the Xbox 360 XBLA release of *Puzzle Fighter
+Turbo HD* (the HD Remix of *Puzzle Fighter II*), built against the bundled
+ReXGlue SDK in `..\rexglue\win-amd64`.
+
+> **On the name:** the official XBLA listing for title ID `5841086E` is titled
+> simply *"Puzzle Fighter HD"* - see `ArcadeInfo.xml` in the extracted game
+> data, where every locale `TitleInfo` entry uses that name. The logo art and the
+> Japanese release call it *Puzzle Fighter Turbo HD*. Both refer to this same
+> recomp.
 
 ## Status
 

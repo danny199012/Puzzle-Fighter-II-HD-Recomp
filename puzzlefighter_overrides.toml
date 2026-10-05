@@ -1,4 +1,4 @@
-﻿# Manual analysis overrides for Puzzle Fighter HD.
+﻿# Manual analysis overrides for Puzzle Fighter Turbo HD (XBLA "Puzzle Fighter HD").
 #
 # Each entry below is a guest entry point that codegen fails to register. In every
 # case the address is reachable only through a computed branch, so the static
