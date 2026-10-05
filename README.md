@@ -9,9 +9,18 @@ Working. The guest boots, initializes memory and input, and produces real
 Xenos video output through the emulated GPU. See `out\shot.png` for a capture
 of the running game (character select / attract intro).
 
+Verified working end to end:
+
 - 123 objects compiled and linked into `puzzlefighter.exe`
 - 8,649 guest functions registered
 - Clean run: no fatal errors, no stderr output
+- DualSense gamepad input and menu navigation confirmed on hardware
+- In-game screen size switching works
+- Matches playable to completion
+
+Note: on a hi-DPI desktop the window is sized in logical pixels (e.g. 1707x960
+at 3840x2160 / 225% scaling). Non-16:9 window modes letterbox, which is
+expected; the in-game screen scaling setting can be used if the bars bother you.
 
 ## Build
 
