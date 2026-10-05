@@ -1,0 +1,8 @@
+generated/default/codegen.d
+out/
+Thumbs.db
+generated/default/codegen.stamp
+build/
+.vs/
+*.tmp
+*.log
